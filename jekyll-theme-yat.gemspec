@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-yat"
   spec.version       = "1.10.0"
-  spec.authors       = ["jeffreytse"]
-  spec.email         = ["hello@jeffreytse.net"]
+  spec.authors       = ["ham_eaten_jellybear"]
+  spec.email         = ["hamzzang1216@naver.com"]
 
-  spec.summary       = "Yet another theme for elegant writers with modern flat style and beautiful night/dark mode."
-  spec.homepage      = "https://github.com/jeffreytse/jekyll-theme-yat"
+  spec.summary       = "해외여행, 국내여행, 맛집, 영화를 리뷰하는 햄곰커플입니다. 협찬/문의는 hamzzang1216@naver.com로 부탁드립니다."
+  spec.homepage      = "https://m.blog.naver.com/ham_eaten_jellybear"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
