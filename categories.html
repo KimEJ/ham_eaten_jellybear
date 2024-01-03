@@ -1,0 +1,2869 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>카테고리 | 햄과 곰이의 블로그</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="카테고리">
+<meta name="author" content="햄먹는 젤리곰">
+<meta property="og:locale" content="ko">
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<link rel="canonical" href="https://home.hejb.io/categories.html">
+<meta property="og:url" content="https://home.hejb.io/categories.html">
+<meta property="og:site_name" content="햄과 곰이의 블로그">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="카테고리">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"햄먹는 젤리곰"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"카테고리","url":"https://home.hejb.io/categories.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="/assets/images/favicon.png">
+  <link rel="canonical" href="https://home.hejb.io">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://home.hejb.io/feed.xml" title="햄과 곰이의 블로그">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="햄과 곰이의 블로그" src="/assets/images/favicon.png" onerror="this.style.display='none'">
+  햄과 곰이의 블로그
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/archives.html">아카이브</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/tags.html">태그</a><a class="page-link" href="/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'ko',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="page-segments">
+  <ul class="page-segments-list">
+    
+    <h2 id="곰이 일기장" class="segment-name">곰이 일기장</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Dec 06, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/12/06/223284685718.html">
+    [2023 마이 블로그 리포트] 라이프 프로텍터 햄먹는 젤리곰!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 28, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/11/28/223276583007.html">
+    [영국 국빈방문] 찰스 3세의 "바람이 불어" 환영사, 윤대통령의 "소네트  #104" 답사 해석<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 16, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/11/16/223266389175.html">
+    가장 넓은 길은 언제나 내 마음속에 | 따뜻한 응원을 담은 2024 수능 필적 확인문구<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 10, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/11/10/223261061242.html">
+    도전.한국 2023 대국민 아이디어 공모전 수상!!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 30, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/30/223251065520.html">
+    [20.Blog] 10월 30일 곰이의 블로깅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 30, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/30/223250628521.html">
+    행복한 햄곰의 일상 사이트맵<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 28, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/28/223248936184.html">
+    햄먹는 젤리곰 인스타 계정 만들었어요~!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 27, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/27/223248024543.html">
+    [20.Blog] 10월 27일 곰이의 블로깅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 26, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/26/223246981882.html">
+    [20.Blog] 10월 26일 곰이의 블로깅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 15, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/15/223237484863.html">
+    [20.Blog] 10월 15일 곰이의 블로깅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 14, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/14/223236189357.html">
+    [20.Blog] 10월 14일 곰이의 블로깅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 13, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/13/223235185509.html">
+    [20.Blog] 기록이 쌓이면 "사랑"이 된다<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 02, 2023</span>
+<span>
+  <a class="post-link" href="/%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/09/02/223200106620.html">
+    혼밥 NO! 금천구 동네 사람들과 같이 저녁 먹자!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="떠나자! 세계로!" class="segment-name">떠나자! 세계로!</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Dec 27, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/12/27/223304695822.html">
+    [홋카이도 3] 삿포로 오타루 아사히카와 겨울축제 알아보기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 18, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/12/18/223296312291.html">
+    [홋카이도 2] 삿포로 후라노 비에이 하코다테 교통 패스 및 투어 정리<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 12, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/12/12/223290511238.html">
+    [홋카이도 1] 출발하기 전에 홋카이도 지역 문화 역사 알아보자!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 04, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/12/04/223282854642.html">
+    [간사이 여행지원] 한큐 한신 전철 타고 떠나는 고베 교토 오사카 팸투어 떠나자!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 21, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/11/21/223270626885.html">
+    [ 기타큐슈 2 ] WELCOME! KitaQ 일본 숙박 할인 지원금 뽕 뽑기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 20, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/11/20/223269931074.html">
+    [ 기타큐슈 1 ] WELCOME! KitaQ 5천엔 여행 지원금 이벤트<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 20, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/11/20/223269818640.html">
+    [일본 간사이 3] 교통패스 총정리 (한신, 한큐, 간사이 쓰루패스, 긴테츠레일패스 할인)<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 15, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/11/15/223265397078.html">
+    [일본 간사이 2] 관광패스 총정리 (오사카 주유패스, e-pass 이패스, 간사이 조이패스)<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 10, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/11/10/223261455409.html">
+    [일본 간사이 1] 오사카 도쿄 나라 자유여행 할 때 주유패스로 가볼만한 곳<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 02, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/11/02/223253517958.html">
+    [일본 중부지방 2] 나고야 시즈오카 도야마 자유여행 관광지 추천<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 01, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/11/01/223252659652.html">
+    [일본 중부지방 1] 나고야 여행 떠나자! 여행 지원 모음<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 26, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/10/26/223247502937.html">
+    [히타 여행 8] 후쿠오카 히타역 인근 맛집 카페 비요리<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 25, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/10/25/223246661034.html">
+    [히타 여행 7] 후쿠오카 유후인 당고 맛집 하나요리<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 23, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/10/23/223243772367.html">
+    [히타 여행 6] 코코노에 마치 아소산 료칸 맛집 추천 니히키노 오니<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 12, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/10/12/223234231983.html">
+    [히타 여행 5] 가이세키 뜻 신시요 료칸에서의 식사 예약<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 08, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/10/08/223231035181.html">
+    [히타 여행 4] 일본 료칸 우키하 벳칸 신시요 뜻 온천 예약 방법<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 06, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/10/06/223229840734.html">
+    [히타 여행 3] 후쿠오카 히타시 볼거리 마메다마치 일일투어 추천<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 06, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/10/06/223229337554.html">
+    [히타 여행 2] 후쿠오카 렌트카 빌릴 때 모르면 손해 보는 꿀팁! ETC 카드, 일본 운전 주의사항<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 04, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!/2023/10/04/223227932376.html">
+    [히타 여행 1] 아시아나 비즈니스 후쿠오카 가는법<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="맛도리를 찾아서" class="segment-name">맛도리를 찾아서</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Jan 03, 2024</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2024/01/03/223311088388.html">
+    [종로 사직동] 광화문 옆 감성 넘치는 한식 맛집 "아이노 가든 키친"<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 06, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/12/06/223284048251.html">
+    [원주 행구동 맛집] 다함면옥에서 갈비탕, 소고기수육, 순두부찌개 냠<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 05, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/12/05/223283441347.html">
+    [성수동 올음] 상남자 브라더스 팝업 후기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 02, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/12/02/223281290092.html">
+    [강남역 피자집] 도치피자 강남 예약 없이 냠냠<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 30, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/30/223278549853.html">
+    나도 이제 붕세권~ 위례 붕어빵 위치 알려드림<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 26, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/26/223275480385.html">
+    글루텐 프리 무조건 좋을까? | 제로 음식 끝판왕 "제로밀샌드" 우유 리뷰<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 23, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/23/223272535591.html">
+    [오토김밥 가산디지털점] 직장인 점심, 건강한 맛의 김밥과 닭강정<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 15, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/15/223265489686.html">
+    [빽다방 구의중앙점] 신메뉴 황치즈 크럼블 머핀, 사라다빵 리뷰<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 14, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/14/223264421413.html">
+    대충 찍어도 잘 나와! 성수 엔틱 감성 연무장길 카페 [스프레이 SPRAY]<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 13, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/13/223263196057.html">
+    [올음] 사시미 오마카세와 전통주가 있는 성수의 숨은맛집!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 10, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/10/223261308989.html">
+    봉선사 주변맛집 잇다제과 웨이팅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 10, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/10/223260663929.html">
+    초밥 샤리 맛은 올바르지 않은디,,, 노맛집 올바른 스시 홍대 직영점<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 09, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/09/223259654998.html">
+    고대구로병원 앞 카페 번츠커피 또 왔지!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 06, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/06/223257571499.html">
+    비건 간식 추천해요! 언리미트 육포 갈비맛, 맥주 안주로 딱이야<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 02, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/11/02/223253819095.html">
+    금천구청역 맛집 슬로우캘리 포케 메뉴 추천 칼로리 두부 다이어트 영양성분 비건<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 27, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/10/27/223247727569.html">
+    오토김밥 본점 이태원 OTTO | 고추냉이콤비, 비건참치김밥<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 14, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/10/14/223236199112.html">
+    Worst 떡볶이 in my life!!! 노맛집 신당동떡볶이 삼대할먼네 영업시간 24시<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 14, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/10/14/223236185329.html">
+    남구로역 카페 번츠커피 | 구로구청과 고대구로병원 앞 스콘 맛집<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 05, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/10/05/223228910432.html">
+    오트라떼와 비건디저트로 즐기는 연휴 | 매머드익스프레스 서울숲아이코닉점 가격, 추천메뉴<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 28, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/28/223223933138.html">
+    대림동 차이나타운 맛집 | 연길냉면 딤섬<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 24, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/24/223220294256.html">
+    이디야 할매니얼 신메뉴 탐방 | 약과 크림치즈 쿠키 리치파인 에이드<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 23, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/23/223219792439.html">
+    건대역 마라탕 자양동 맛집 | 허씨전통중경마라샹궈 3호점 가격<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 22, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/22/223218284311.html">
+    미나리 듬뿍 버섯매운탕 맛집 | 신사동인동 선릉역점<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 20, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/20/223217217468.html">
+    점심 메뉴 추천 | 역전우동0410 대전역점 매콤치킨마요덮밥 리뷰<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 16, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/16/223213430448.html">
+    쯔양분식집 이수역 맛집 정원분식 쯔양간식세트 | 평일 저녁 방문 후기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 14, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/14/223211114946.html">
+    [햄곰 비건 탐방] 플랜튜드 코엑스점 | 삼성역 코엑스 비건 맛집<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 13, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/13/223209852242.html">
+    광화문 서촌 데이트 맛집 도토리 브라더스 | 리뷰 예약 웨이팅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 12, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C/2023/09/12/223209157148.html">
+    서초동 무인카페 비트박스 서초점 다녀왔어요 | 서초역 24시간 로봇카페 비트 b;eat<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="블로그씨와 주저리주저리" class="segment-name">블로그씨와 주저리주저리</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Oct 05, 2023</span>
+<span>
+  <a class="post-link" href="/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%94%A8%EC%99%80%20%EC%A3%BC%EC%A0%80%EB%A6%AC%EC%A3%BC%EC%A0%80%EB%A6%AC/2023/10/05/223229089622.html">
+    잘 먹고 잘 놀았던 추석 모음.zip<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="여기가 히트다 히트" class="segment-name">여기가 히트다 히트</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Jan 02, 2024</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2024/01/02/223310004542.html">
+    [조부모님과 서울 마실 1] 북한산 설경과 함께하는 파라스파라 서울<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 22, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/12/22/223300583353.html">
+    [강원도 평창 3] 휘닉스 파크 호텔에 겨울 호캉스 즐기기 (아침요가, 온도 조식, 와플)<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 20, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/12/20/223298739410.html">
+    [강원도 평창 2] 휘닉스 파크 블루 캐니언과 온담에서 저녁냠!!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 17, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/12/17/223295624096.html">
+    [강원도 평창 1] 비오는날 휘닉스 파크에서 스키장 200% 즐기기!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 08, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/12/08/223286191609.html">
+    [압구정 칼리프하우스] 델타 항공 크리스마스 팝업 후기!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 05, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/12/05/223283829077.html">
+    [횡성 웰리힐리파크 스키장] 인생 첫 중급 슬로프 후기! 리프트권 장비렌탈 개장 오픈할인 가격<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 28, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/11/28/223277141429.html">
+    [겨울 호캉스 숙소 추천] 제로마진 이벤트 가성비 최저가로 뽕 뽑기! | 롯데호텔월드, 파라스파라 예약<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 28, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/11/28/223277041552.html">
+    지역대표술과 전통주가 한 자리에! 2023 대한민국 우리술 대축제 후기 &amp; 막걸리 만들기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 04, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/11/04/223255633041.html">
+    혼자지만 괜찮아! 혼자 가도 괜찮은 축제 2023 탐방기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 30, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/10/30/223250463176.html">
+    i am 행복에요~ 2023 대한민국 숙박세일 페스타 할인쿠폰 사용법 및 추천<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 16, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/10/16/223237577673.html">
+    햄곰이네 등산일지 | 금천구 호암산 호압사<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 28, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/28/223223808194.html">
+    커먼그라운드 앱솔루트 보드카 팝업스토어 | 건대 놀 만한 곳 놀거리<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 26, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/26/223222534083.html">
+    커먼그라운드 인덱스숍 커피, 식물유치원 전시 | 건대 놀 만한 곳<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 20, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/20/223217209813.html">
+    대전알못의 대전나들이<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 20, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/20/223216908017.html">
+    [신라는 경주여행 4] 동궁과 월지 안압지 첨성대 야경 점등시간<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 19, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/19/223216217181.html">
+    [신라는 경주여행 3] 황리단길 한식 밥집 화양연화<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 19, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/19/223215491534.html">
+    비 오는 날 재잘재잘 | 이수역 산책<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 18, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/18/223215206523.html">
+    [신라는 경주여행 2] 황리단길 한식 감성 맛집 수경사<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 18, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/18/223215125985.html">
+    [신라는 경주여행 1] 한옥 스타벅스에서 미키 딜라이트 콜드브루<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 17, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/17/223214135051.html">
+    [ 엄마 생일 기념 2 ] N서울타워 맛집 레스토랑 한쿡<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 13, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/13/223210528256.html">
+    새 자전거를 타고 달려보자 폴짝! | 위례 자전거 수리점 모션바이크<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 13, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/13/223210422658.html">
+    [ 엄마 생일 기념 1 ] 롯데호텔 서울 LG 시네빔 리뷰<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 12, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/12/223209292860.html">
+    [무작정 강릉 휴가 여행 3] 강릉 경포대 여행 코스 선물 카페 등<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 10, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/10/223207737910.html">
+    [무작정 강릉 휴가 여행 2] 강릉 경포대 초당마을 맛집<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 10, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8/2023/09/10/223207352134.html">
+    [무작정 강릉 휴가 여행 1] 강릉 가는 법 KTX 강릉 펜션 코스 등<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="이것저것" class="segment-name">이것저것</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Dec 04, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9D%B4%EA%B2%83%EC%A0%80%EA%B2%83/2023/12/04/223282015513.html">
+    삼양라면 초고압 세척기 솔직 리뷰<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="재난지원금" class="segment-name">재난지원금</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Dec 19, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/12/19/223297047454.html">
+    [용산동 2가 해방촌] 달빛 따라 맛집 따라 "달빛 흘러간 자리" 24시 카페 리뷰<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 08, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/12/08/223287049797.html">
+    [강남역 사진관] 포토위크에서 컬러증명사진 후기 | 1:1 일대일 맞춤 보정<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 30, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/11/30/223279555536.html">
+    [흑석동 초밥] 중앙대 앞 주주총회에서 숙성회 코스로 데이트하기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 26, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/11/26/223275444990.html">
+    [이수역] 노아이디어피자 하프 그린핑크 콤비네이션 라지 사이즈 | 사당피자맛집<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 17, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/11/17/223267775329.html">
+    [연남동 와인] 퓨전한식 코스 안주한상&amp;와인바 연남한양집<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 12, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/11/12/223262763741.html">
+    서울숲 근처 놀거리 | 공부하기 좋은 카페 성수지앵 오어넥스트 다녀왔어요<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 09, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/11/09/223259712444.html">
+    시간 가는 줄 모르는 2인용 커플 보드게임 추천! 더홀릭보드게임카페 홍대점<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 03, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/11/03/223254592885.html">
+    건강한 선릉역 대치동 브런치 맛집 | 매크로키친<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 01, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/11/01/223252181808.html">
+    섬세한 티칭과 핸즈온 : 압구정요가 차요가 빈야사 강남 신사동<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 31, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/31/223251106758.html">
+    당산역 근처에 새로생긴 점심 맛집 | 마라천하 마라탕<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 29, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/29/223249968566.html">
+    아롬요가 하타, 빈야사 수련 후기! 남위례역 위례요가원<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 27, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/27/223247732240.html">
+    박준 뷰티랩 종각역점 종로미용실 도현 디자이너 남성 일반펌 후기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 26, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/26/223247671345.html">
+    필리핀 선생님과 함께 화상영어로 회화 실력 키우기 포인트영어 가격<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 26, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/26/223246706899.html">
+    애견 동반 가능한 힙당동 핫플 카페 에프오커피 F5 Coffee<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 24, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/24/223245724296.html">
+    여러가지 스포츠 컨텐츠를 한번에! 밀리토피아 호텔 휘트니스센터<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 24, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/24/223245501693.html">
+    이태원역 앤틱 가구거리 가을 감성카페 | 커피오브콜스<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 19, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/19/223241332207.html">
+    공덕미용실 추천! 라이즈헤어에서 중단발 허쉬 레이어드컷 커트 후기 | 마포미용실 공덕역 마포역<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 11, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/11/223234177891.html">
+    그룹수업으로 저렴한 개포동 폼필라테스 후기 및 가격<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 10, 2023</span>
+<span>
+  <a class="post-link" href="/%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88/2023/10/10/223233212278.html">
+    삼성동PT는 에이블짐 삼성중앙역점 헬스가 답이다<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="햄곰이네 비밀레시피" class="segment-name">햄곰이네 비밀레시피</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Nov 14, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC/2023/11/14/223264541729.html">
+    야매 알리오올리오 파스타(유산슬?)와 비건 꿔바로우 냠<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 24, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC/2023/10/24/223244798079.html">
+    표고버섯 잡채 쉽게 만드는법! 채식으로 맛있게 먹고 살기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 04, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC/2023/10/04/223228217375.html">
+    참기름 들기름 발암물질 없이, 비건 순두부미역국과 바삭한 김치전 만드는법 | 젤리곰밥상<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 12, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC/2023/09/12/223209270938.html">
+    비건 알리오올리오 레시피 공유해드림! 파스타 칼로리 다이어트 파스타면 삶기 시간<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 07, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC/2023/09/07/223204931583.html">
+    단호박죽 만들기 레시피, 단호박 효능 전자렌지 찌는법 꿀팁<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 05, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC/2023/09/05/223202815872.html">
+    간단메뉴 오뚜기 카레 맛있게 만드는법! | 젤리곰밥상<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Aug 29, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC/2023/08/29/223197070139.html">
+    버섯강정, 바삭한 부추전 만드는법 새송이버섯 표고버섯 맥주안주 집에서 만들기 레시피 | 젤리곰밥상<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Aug 29, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC/2023/08/29/223196654504.html">
+    비건 아게다시 도후 레시피, 직접 만든 쯔유와 고명 | 젤리곰밥상<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="햄곰종려상 수상작" class="segment-name">햄곰종려상 수상작</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Dec 26, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%A2%85%EB%A0%A4%EC%83%81%20%EC%88%98%EC%83%81%EC%9E%91/2023/12/26/223303479216.html">
+    김한민 감독 이순신 3부작 중 마지막 영화 &lt;노량: 죽음의 바다&gt; 리뷰, 쿠키<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 21, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%A2%85%EB%A0%A4%EC%83%81%20%EC%88%98%EC%83%81%EC%9E%91/2023/12/21/223299584661.html">
+    일본 고레에다 히로카즈의 영화 괴물 스포 결말 쿠키 해석 리뷰<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 29, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%A2%85%EB%A0%A4%EC%83%81%20%EC%88%98%EC%83%81%EC%9E%91/2023/10/29/223249847349.html">
+    미야자키 하야오의 최후의 질문 "그대들은 어떻게 살 것인가" 지브리 신작 리뷰 후기 해석<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 30, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%A2%85%EB%A0%A4%EC%83%81%20%EC%88%98%EC%83%81%EC%9E%91/2023/09/30/223225215978.html">
+    봉준호가 극찬한 영화 잠 무섭나요 | 메가박스 이수점<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 01, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%A2%85%EB%A0%A4%EC%83%81%20%EC%88%98%EC%83%81%EC%9E%91/2023/09/01/223199866905.html">
+    크리스토퍼 놀란 영화 오펜하이머 리뷰, 평점, 명대사, 흑백 컬러 이유 | 메가박스 송파파크하비오에서<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Aug 30, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%EC%A2%85%EB%A0%A4%EC%83%81%20%EC%88%98%EC%83%81%EC%9E%91/2023/08/30/223197972388.html">
+    픽사 영화 엘리멘탈 후기, 뜻, 명대사, 쿠키 업, 다름이라는 아름다움 | CGV 영등포점에서<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="햄곰툰" class="segment-name">햄곰툰</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Nov 15, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EA%B3%B0%ED%88%B0/2023/11/15/223265750376.html">
+    햄이와 곰이가 커플블로그 시작한 이유 - 일단 도전해보기!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+    <h2 id="햄이 일기장" class="segment-name">햄이 일기장</h2>
+      
+      
+        <li class="">
+<span class="post-meta">Dec 16, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/12/16/223294909176.html">
+    책 읽다가 현타 오는 이유 (영어공부를 해야 하는 이유)<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 14, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/12/14/223293057462.html">
+    [다이소 분갈이 흙] 분갈이용토 없이 상토, 퇴비로 성공! 집에서 물구멍 만들기 (화분깔망 X)<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 09, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/12/09/223287306752.html">
+    막걸리 만들기 체험 후기 | 열흘 숙성한 뒤 먹은 맛은?<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 07, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/12/07/223286189591.html">
+    2023 러닝 기록 131.6KM | 위례휴먼링 달리기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Dec 01, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/12/01/223280539309.html">
+    [블로그 성장기록] 3개월만에 블로그 애드포스트 승인! 감사합니다 이웃님들<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 22, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/11/22/223271903179.html">
+    석촌역 요가바이아터스 발라니 선생님 하타요가 심화수련 시퀀스 100분 후기 | 파리브리타자누시르사, 박쥐자세, 우파비스타코나아사나, 에카파다라자카포타, 컴업, 마리챠아사나<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 22, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/11/22/223271728555.html">
+    임산부 주의 스타벅스 음료 쿨라임피지오 (카페인/칼로리/맛/영양성분/가격) | 니콘내콘 기프티콘 쿠폰 할인 사용법<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 16, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/11/16/223266925823.html">
+    햄먹는 젤리곰 썸네일 만들었어요 히히<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Nov 05, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/11/05/223256581082.html">
+    [헬스장 일기] 케틀벨 스윙 100개 하고 파워에이드 제로 먹음<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 23, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/23/223244267995.html">
+    백만 년만에 집에서 셀프수련, 하타요가 50분 시퀀스 현자세 아쉬와산찰라 숩타 비라사나 우스트라아사나 시르사아사나 니라람바 살람바사르방가<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 19, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/19/223241256146.html">
+    ai 말투로 친구 골려먹기 (성공^^)<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 18, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/18/223240064947.html">
+    서초동 한전아트센터 수영장 다녀왔어요 | 양재역 자유수영 시간, 가격, 자판기<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 16, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/16/223237607120.html">
+    즐거운 먹부림 집들이 | 플스 4 게임 추천 오버쿡트2, 콜오브듀티<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 13, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/13/223235219274.html">
+    [20.Blog] 10월 13일 햄이의 블로깅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 09, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/09/223231524307.html">
+    2023 서울달리기 100일 존버했더니 지각한 건에 대하여.. 그래도 11km 코스 완주함<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 02, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/02/223226556482.html">
+    [햄이의 그림일기] 알라뷰 샤머<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Oct 01, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/10/01/223225873334.html">
+    일본에 간 곰이와 시골에 간 햄이<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 15, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/09/15/223212013907.html">
+    느낌표살인마 곰이<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 13, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/09/13/223210550453.html">
+    오늘의 감사한 일 5개<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+        <li class="">
+<span class="post-meta">Sep 08, 2023</span>
+<span>
+  <a class="post-link" href="/%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5/2023/09/08/223205672128.html">
+    서울 홍대 오마이메이드카페 후기 | 메뉴 오므라이스 오이시쿠나레 모에모에큥 뜻<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+</span>
+</li>
+        
+      
+    
+  </ul>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="/index.html">
+        All<span>141</span>
+      </a>
+    </li>
+
+    
+      <li>
+        <a href="/categories.html#h-%EA%B3%B0%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5">
+          곰이 일기장 <span>13</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EB%96%A0%EB%82%98%EC%9E%90!%20%EC%84%B8%EA%B3%84%EB%A1%9C!">
+          떠나자! 세계로! <span>19</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EB%A7%9B%EB%8F%84%EB%A6%AC%EB%A5%BC%20%EC%B0%BE%EC%95%84%EC%84%9C">
+          맛도리를 찾아서 <span>28</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%94%A8%EC%99%80%20%EC%A3%BC%EC%A0%80%EB%A6%AC%EC%A3%BC%EC%A0%80%EB%A6%AC">
+          블로그씨와 주저리주저리 <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EC%97%AC%EA%B8%B0%EA%B0%80%20%ED%9E%88%ED%8A%B8%EB%8B%A4%20%ED%9E%88%ED%8A%B8">
+          여기가 히트다 히트 <span>25</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EC%9D%B4%EA%B2%83%EC%A0%80%EA%B2%83">
+          이것저것 <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EC%9E%AC%EB%82%9C%EC%A7%80%EC%9B%90%EA%B8%88">
+          재난지원금 <span>19</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%ED%96%84%EA%B3%B0%EC%9D%B4%EB%84%A4%20%EB%B9%84%EB%B0%80%EB%A0%88%EC%8B%9C%ED%94%BC">
+          햄곰이네 비밀레시피 <span>8</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%ED%96%84%EA%B3%B0%EC%A2%85%EB%A0%A4%EC%83%81%20%EC%88%98%EC%83%81%EC%9E%91">
+          햄곰종려상 수상작 <span>6</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%ED%96%84%EA%B3%B0%ED%88%B0">
+          햄곰툰 <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%ED%96%84%EC%9D%B4%20%EC%9D%BC%EA%B8%B0%EC%9E%A5">
+          햄이 일기장 <span>20</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>2023-2024 © 햄먹는 젤리곰</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
